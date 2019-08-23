@@ -1,0 +1,76 @@
+{
+  "name": "typescript-playground",
+  "version": "1.1.0",
+  "description": "Learning TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnymillergh/typescript-playground"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Johnny Miller (锺俊)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/johnnymillergh/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/johnnymillergh/typescript-playground",
+  "scripts": {
+    "clean": "rm -rf ./dist ./coverage ./.nyc_output ./coverage.lcov ./mochawesome-report",
+    "build:ts": "tsc -p ./ --rootDir ./src",
+    "lint:ts": "tslint -c tslint.json 'src/**/*.ts' && tslint -c tslint.json 'test/**/*.ts'",
+    "tslint": "tslint -p tsconfig.json",
+    "tslint-fix": "tslint --fix -p tsconfig.json",
+    "test:ts": "mocha -r ts-node/register ./test/**/*.spec.ts ./test/**/**/*.spec.ts --recursive",
+    "dev": "npm run clean && npm run lint && npm run webpack && npm run generate-report",
+    "generate-report": "nyc --report-dir coverage npm run test && nyc report --reporter=text",
+    "generate-report2": "nyc --report-dir coverage npm run test",
+    "go": "npm run clean && npm run lint:ts && npm run build:ts && npm run test:ts",
+    "webpack": "webpack --env build",
+    "serve": "http-server"
+  },
+  "nyc": {
+    "include": [
+      "src/ts/*.ts",
+      "src/ts/**/*.ts",
+      "src/js/*.js",
+      "src/js/**/*.js"
+    ],
+    "exclude": [
+      "typings"
+    ],
+    "extension": [
+      ".ts",
+      ".js"
+    ],
+    "reporter": [
+      "json",
+      "html"
+    ],
+    "all": true
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.1.0",
+    "nyc": "^14.1.1",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "yargs": "^13.3.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
