@@ -47,7 +47,8 @@
     // "debug-assert": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      2
     ],
     "interface-name": [
       true,
