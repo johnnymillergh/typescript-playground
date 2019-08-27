@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.3.0...v1.4.0) (2019-08-27)
+
+
+### Features
+
+* **$enum:** add enums tutorial ([d4cc03b](https://github.com/johnnymillergh/typescript-playground/commit/d4cc03b))
+
+
+
 # [1.3.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.2.0...v1.3.0) (2019-08-27)
 
 
