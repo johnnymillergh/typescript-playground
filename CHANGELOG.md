@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.2.0...v1.3.0) (2019-08-27)
+
+
+### Features
+
+* **$generic:** add generic tutorial ([0f83c3c](https://github.com/johnnymillergh/typescript-playground/commit/0f83c3c))
+
+
+
 # 1.2.0 (2019-08-26)
 
 
