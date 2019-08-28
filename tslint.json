@@ -6,11 +6,11 @@
       false,
       "array"
     ],
-    "ban": [
-      true,
-      "setInterval",
-      "setTimeout"
-    ],
+//    "ban": [
+//      true,
+//      "setInterval",
+//      "setTimeout"
+//    ],
     "ban-types": [
       false,
       [
