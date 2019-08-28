@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.4.0...v1.5.0-beta) (2019-08-28)
+
+
+### Features
+
+* **$Promise:** add promise tutorial ([f161be7](https://github.com/johnnymillergh/typescript-playground/commit/f161be7))
+
+
+
 # [1.4.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.3.0...v1.4.0) (2019-08-27)
 
 
