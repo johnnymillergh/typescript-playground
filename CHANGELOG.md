@@ -1,3 +1,12 @@
+## [1.5.2](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.1...v1.5.2) (2019-08-30)
+
+
+### Features
+
+* **$package.json, TypeScript:** update TypeScript version to 3.6.2 ([aec8bb9](https://github.com/johnnymillergh/typescript-playground/commit/aec8bb9))
+
+
+
 # [1.5.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.4.0...v1.5.0-beta) (2019-08-28)
 
 
