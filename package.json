@@ -1,6 +1,6 @@
 {
   "name": "typescript-playground",
-  "version": "1.5.0",
+  "version": "1.5.1-beta",
   "description": "Learning TypeScript",
   "repository": {
     "type": "git",
@@ -65,8 +65,8 @@
     "ts-loader": "6.0.4",
     "ts-node": "8.3.0",
     "tslint": "5.19.0",
-    "typescript": "3.5.3",
-    "webpack": "4.39.2",
+    "typescript": "3.6.2",
+    "webpack": "4.39.3",
     "webpack-cli": "3.3.7",
     "yargs": "13.3.0"
   },
