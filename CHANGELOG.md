@@ -1,3 +1,12 @@
+## [1.5.3](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.2...v1.5.3) (2019-09-02)
+
+
+### Features
+
+* **$README.md:** renew README.md ([9e42fe7](https://github.com/johnnymillergh/typescript-playground/commit/9e42fe7))
+
+
+
 ## [1.5.2](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.1...v1.5.2) (2019-08-30)
 
 
