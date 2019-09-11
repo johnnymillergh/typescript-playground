@@ -1,3 +1,13 @@
+## [1.5.4](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.3...v1.5.4) (2019-09-11)
+
+
+### Features
+
+* **$GitHub:** add issue template ([8886eb3](https://github.com/johnnymillergh/typescript-playground/commit/8886eb3))
+* **$README.md:** add new information badges; finish the part of `Features` ([4d34d23](https://github.com/johnnymillergh/typescript-playground/commit/4d34d23))
+
+
+
 ## [1.5.3](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.2...v1.5.3) (2019-09-02)
 
 
