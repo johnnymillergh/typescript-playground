@@ -1,6 +1,6 @@
 {
   "name": "typescript-playground",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Learning TypeScript",
   "repository": {
     "type": "git",
@@ -50,7 +50,7 @@
     "all": true
   },
   "devDependencies": {
-    "@types/chai": "4.2.0",
+    "@types/chai": "4.2.7",
     "@types/mocha": "5.2.7",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
@@ -59,18 +59,18 @@
     "babel-plugin-transform-es2015-modules-umd": "6.24.1",
     "babel-preset-env": "1.7.0",
     "chai": "4.2.0",
-    "mocha": "6.2.0",
+    "mocha": "6.2.2",
     "mochawesome": "4.1.0",
     "nyc": "14.1.1",
-    "ts-loader": "6.0.4",
-    "ts-node": "8.3.0",
-    "tslint": "5.19.0",
-    "typescript": "3.6.2",
-    "webpack": "4.39.3",
-    "webpack-cli": "3.3.7",
-    "yargs": "13.3.0"
+    "ts-loader": "6.2.1",
+    "ts-node": "8.5.4",
+    "tslint": "5.20.1",
+    "typescript": "3.7.3",
+    "webpack": "4.41.3",
+    "webpack-cli": "3.3.10",
+    "yargs": "15.0.2"
   },
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "0.12.0"
   }
 }
