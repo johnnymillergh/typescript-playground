@@ -1,3 +1,12 @@
+## [1.5.5](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.4...v1.5.5) (2019-12-18)
+
+
+### Changes
+
+* **$package.json:** update node dependencies ([19d2f267](https://github.com/johnnymillergh/typescript-playground/commit/19d2f267))
+
+
+
 ## [1.5.4](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.3...v1.5.4) (2019-09-11)
 
 
