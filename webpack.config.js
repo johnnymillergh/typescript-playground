@@ -1,5 +1,6 @@
-const path = require('path');
+import path from "path";
 
+// eslint-disable-next-line no-undef
 module.exports = {
   entry: './src/index.ts',
   module: {
@@ -12,9 +13,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ]
+    extensions: ['.tsx', '.ts', '.js']
   },
   output: {
+    // eslint-disable-next-line no-undef
     path: path.resolve(__dirname, 'dist')
   }
 };
