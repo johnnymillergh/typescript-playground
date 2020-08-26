@@ -1,76 +1,57 @@
 {
   "name": "typescript-playground",
-  "version": "1.5.5",
-  "description": "Learning TypeScript",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnnymillergh/typescript-playground"
-  },
+  "version": "1.5.6",
+  "description": "TypeScript playground. Learning TypeScript",
+  "license": "Apache-2.0",
   "keywords": [
     "typescript"
   ],
-  "author": "Johnny Miller (锺俊)",
-  "license": "Apache 2.0",
+  "author": {
+    "name": "Johnny Miller",
+    "email": "johnnysviva@outlook.com",
+    "url": "https://github.com/johnnymillergh"
+  },
   "bugs": {
-    "url": "https://github.com/johnnymillergh/typescript-playground/issues"
+    "url": "https://github.com/johnnymillergh/typescript-playground/issues/new",
+    "email": "johnnysviva@outlook.com"
   },
-  "homepage": "https://github.com/johnnymillergh/typescript-playground",
+  "repository": {
+    "url": "https://github.com/johnnymillergh/typescript-playground",
+    "type": "git"
+  },
+  "private": true,
   "scripts": {
-    "clean": "rm -rf ./dist ./coverage ./.nyc_output ./coverage.lcov ./mochawesome-report",
-    "build:ts": "tsc -p ./ --rootDir ./src",
-    "lint:ts": "tslint -c tslint.json 'src/**/*.ts' && tslint -c tslint.json 'test/**/*.ts'",
-    "tslint": "tslint -p tsconfig.json",
-    "tslint-fix": "tslint --fix -p tsconfig.json",
-    "test:ts": "mocha -r ts-node/register ./test/**/*.spec.ts ./test/**/**/*.spec.ts --recursive",
-    "dev": "npm run clean && npm run lint && npm run webpack && npm run generate-report",
-    "generate-report": "nyc --report-dir coverage npm run test && nyc report --reporter=text",
-    "generate-report2": "nyc --report-dir coverage npm run test",
-    "go": "npm run clean && npm run lint:ts && npm run build:ts && npm run test:ts",
-    "webpack": "webpack --env build",
-    "serve": "http-server"
-  },
-  "nyc": {
-    "include": [
-      "src/ts/*.ts",
-      "src/ts/**/*.ts",
-      "src/js/*.js",
-      "src/js/**/*.js"
-    ],
-    "exclude": [
-      "typings"
-    ],
-    "extension": [
-      ".ts",
-      ".js"
-    ],
-    "reporter": [
-      "json",
-      "html"
-    ],
-    "all": true
+    "test": "jest",
+    "lint": "eslint --debug --ext .ts src tests",
+    "lint:fix": "eslint --fix --debug --ext .ts src tests",
+    "travis:go": "npm run lint && npm run test"
   },
   "devDependencies": {
-    "@types/chai": "4.2.7",
-    "@types/mocha": "5.2.7",
-    "babel-cli": "6.26.0",
-    "babel-core": "6.26.3",
-    "babel-loader": "8.0.6",
-    "babel-plugin-add-module-exports": "1.0.2",
-    "babel-plugin-transform-es2015-modules-umd": "6.24.1",
-    "babel-preset-env": "1.7.0",
-    "chai": "4.2.0",
-    "mocha": "6.2.2",
-    "mochawesome": "4.1.0",
-    "nyc": "14.1.1",
-    "ts-loader": "6.2.1",
-    "ts-node": "8.5.4",
-    "tslint": "5.20.1",
-    "typescript": "3.7.3",
-    "webpack": "4.41.3",
-    "webpack-cli": "3.3.10",
-    "yargs": "15.0.2"
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.2.13",
+    "ts-jest": "^26.2.0",
+    "typescript": "^4.0.2"
   },
-  "dependencies": {
-    "http-server": "0.12.0"
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts}": [
+      "lint",
+      "git add"
+    ]
   }
 }
