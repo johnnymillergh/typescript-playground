@@ -1,11 +1,20 @@
+# Travis CI Java documentation can be found in:
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 language: node_js
+
 node_js:
   - node
+
+# Skipping the Installation Phase
+# https://docs.travis-ci.com/user/job-lifecycle/#skipping-the-installation-phase
 install:
   - npm install
+
 script:
-  - npm run go
+  - npm run travis:go
+
+# https://docs.travis-ci.com/user/notifications#default-notification-settings
 notifications:
   email:
-    on_failure: change
     on_success: change
+    on_failure: always
