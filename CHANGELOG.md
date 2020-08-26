@@ -1,3 +1,13 @@
+## [1.5.6](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.5...v1.5.6) (2020-08-26)
+
+
+### Performance Improvements
+
+* **$TypeScript:** fully upgrade dependencies and performance ([599de1c](https://github.com/johnnymillergh/typescript-playground/commit/599de1c691fda04bfbaab9558ecf5660d4908eff))
+* **$TypeScript:** migrate to TypeScript ESLint ([adc2520](https://github.com/johnnymillergh/typescript-playground/commit/adc25204b5d87d60fd3a9649cd2fc1dd7e830f98))
+
+
+
 ## [1.5.5](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.4...v1.5.5) (2019-12-18)
 
 
