@@ -1,3 +1,12 @@
+# [2.0.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.6...v2.0.0) (2020-08-27)
+
+
+### Features
+
+* **$TypeScript:** add missing codes ([95c53da](https://github.com/johnnymillergh/typescript-playground/commit/95c53dad130dfec3cb44f28791bd074cb8116e9e))
+
+
+
 ## [1.5.6](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.5...v1.5.6) (2020-08-26)
 
 
