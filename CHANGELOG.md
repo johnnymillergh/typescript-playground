@@ -1,3 +1,13 @@
+## [2.0.2](https://github.com/johnnymillergh/typescript-playground/compare/v2.0.1...v2.0.2) (2020-09-01)
+
+
+### Performance Improvements
+
+* **$Git:** ignore Jest test coverage reports ([7ec2d5e](https://github.com/johnnymillergh/typescript-playground/commit/7ec2d5ef4ef4a19319ce577a2a9b83fd600b9f11))
+* **$Jest:** update Jest configuration ([0c52cf7](https://github.com/johnnymillergh/typescript-playground/commit/0c52cf71a4401d7b64fb550a7400a0dffc74aef7))
+
+
+
 ## [2.0.1](https://github.com/johnnymillergh/typescript-playground/compare/v2.0.0...v2.0.1) (2020-09-01)
 
 
