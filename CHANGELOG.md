@@ -1,3 +1,13 @@
+## [2.0.1](https://github.com/johnnymillergh/typescript-playground/compare/v2.0.0...v2.0.1) (2020-09-01)
+
+
+### Performance Improvements
+
+* **$lint-staged:** enhance configuration ([e093fcf](https://github.com/johnnymillergh/typescript-playground/commit/e093fcf10ddc105aaf1038cf92d687369df57290))
+* **$package.json:** enhance lint-staged and Git hook ([4a114d3](https://github.com/johnnymillergh/typescript-playground/commit/4a114d31e76c04680dd6b25ca27eb35275482ff0))
+
+
+
 # [2.0.0](https://github.com/johnnymillergh/typescript-playground/compare/v1.5.6...v2.0.0) (2020-08-27)
 
 
