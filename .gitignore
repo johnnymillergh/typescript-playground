@@ -24,3 +24,4 @@ pnpm-debug.log*
 ### Costom ignored files
 /package-lock.json
 /.eslintcache
+/jest-coverage/
