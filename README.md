@@ -17,7 +17,7 @@
 Here is the highlights of **TypeScript Playground**:
 
 1. Based on the most modern and latest [**Type**Script](https://github.com/microsoft/TypeScript) - [![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
-2. [TSLint](https://palantir.github.io/tslint/rules) support
+2. [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint#getting-started--installation) support
 3. Web browser free. Run code in the console of latest version WebStorm
 4. Demonstrate the features of TypeScript:
    - Basic types
@@ -26,6 +26,8 @@ Here is the highlights of **TypeScript Playground**:
    - Generics
    - Enums
    - Async and await
+5. Travis CI support
+6. Jest and code coverage support
 
 ## Usage
 
